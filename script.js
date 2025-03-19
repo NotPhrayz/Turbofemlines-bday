@@ -184,7 +184,7 @@ const animateElement = (element, animation, duration = 300) => {
   
   // Audio System
   const voiceMessage = new Howl({
-    src: ["audio/birthday.mp3"],
+    src: ["birthday.mp3"],
     html5: true,
     volume: 0.8,
     onplay: () => {
