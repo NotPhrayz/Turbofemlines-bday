@@ -29,7 +29,7 @@ const animateElement = (element, animation, duration = 300) => {
   };
   
   // Game 1: Guess the Number
-  let remainingGuesses = 5;
+  let remainingGuesses = 8;
   const secretNumber = Math.floor(Math.random() * 10) + 1;
   const game1Elements = {
     input: document.getElementById("guess-input"),
