@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Turbofemlines!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday, John! 🎉</h1>
+    <p>Welcome to your birthday surprise! To unlock your special message, you need to play some games.</p>
+    
+    <!-- Game 1: Guess the Number -->
+    <div id="game1-section">
+      <h2>Game 1: Guess the Number</h2>
+      <p>I'm thinking of a number between 1 and 10. Can you guess it?</p>
+      <input type="number" id="guess-input" min="1" max="10" placeholder="Enter your guess">
+      <button id="guess-button">Submit Guess</button>
+      <p id="game1-result"></p>
+    </div>
+
+    <!-- Game 2: Trivia -->
+    <div id="game2-section" class="hidden">
+      <h2>Game 2: Trivia</h2>
+      <p>What is Tasos favorite color?</p>
+      <input type="text" id="trivia-input" placeholder="Enter your answer">
+      <button id="trivia-button">Submit Answer</button>
+      <p id="game2-result"></p>
+    </div>
+
+    <!-- Game 3: Memory Game -->
+    <div id="game3-section" class="hidden">
+      <h2>Game 3: Memory Game</h2>
+      <p>Click the buttons in the correct order: 1, 2, 3 etc.</p>
+      <button id="memory-button-1">1</button>
+      <button id="memory-button-2">2</button>
+      <button id="memory-button-3">3</button>
+      <p id="game3-result"></p>
+    </div>
+
+    <!-- Game 4: Alfonzo Trivia -->
+<div id="game4-section" class="hidden">
+  <h2>Game 4: Alfonzo Trivia</h2>
+  <p>What is Alfonzo good at?</p>
+  <button id="option1">1. Art</button>
+  <button id="option2">2. Monopoly</button>
+  <button id="option3">3. Killing Turbo</button>
+  <p id="game4-result"></p>
+</div>
+
+<!-- Game 5: Xristoforos Trivia -->
+<div id="game5-section" class="hidden">
+  <h2>Game 5: Xristoforos Trivia</h2>
+  <p>What would Xristoforos do if he was being chased by Alfonso?</p>
+  <button id="xristo-option1">1. Go to the principal</button>
+  <button id="xristo-option2">2. F*** him</button>
+  <button id="xristo-option3">3. Run as fast as he can</button>
+  <p id="game5-result"></p>
+</div>
+
+    <div id="message-section" class="hidden">
+      <h2>🎂 Your Special Birthday Message 🎂</h2>
+      <p>Happy Birthday, Turbofemlines! 🚀🎮</p>
+      <p>From: <strong>Xristoforos, Alfonzo, and Tasos </strong></p>
+      <p>You're an amazing friend, and we hope your day is as awesome as you are. Keep being the turbo legend that you are! 🎉</p>
+    
+   <!-- Voice Message Section -->
+   <div id="voice-message">
+    <h3>A Special Voice Message for You 🎙️</h3>
+    <p>From your girl best friend SOPH:</p>
+    <button id="play-button">▶️ Play Message</button>
+    <button id="pause-button" class="hidden">⏸️ Pause Message</button>
+      <h6>Also DeepSeek Made this site cause i was bored to code the html</h6>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
